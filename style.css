@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
+}
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
